@@ -33,7 +33,6 @@ public class SignUp_without_mobile extends BaseTest {
 //        //String jiraUrl = "https://akhilgunthoju123.atlassian.net/rest/raven/1.0/api/test/" + testKey + "/status";
 //        String jiraUrl = "https://akhilgunthoju123.atlassian.net/rest/raven/1.0/api/test/{testKey}/status\r\n"
 //        		+ "";
-//        String apiToken = "ATATT3xFfGF0bcB15vR_yYO1JZ9oAOHBJUrZ228bf6XYlxDdTj814Di80JhozLyQDMIJCj5IZXqzLagpmDWdVkKOz58kEhIcKbz1JsLMoRFd7Krn9nDnFnvG1qIdeGFC-A8InHusmAbtsifKNl1fezd-0NdqDk6pZgd9eNh1s_8dqWrhIsuJvPo=E058A14C";
 //        String username = "akhilgunthoju123@gmail.com";
 //
 //        String jsonPayload = "{ \"status\": \"" + status + "\" }";
