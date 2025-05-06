@@ -68,6 +68,11 @@
 			<version>3.24.2</version> <!-- Keep this version as it's standard -->
 		</dependency>
 
+		<properties>
+   			<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		</properties>
+
+
 	</dependencies>
 
 	<build>
