@@ -1,0 +1,73 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "antnele app" parallel="false">
+	
+	<test name = "Landing Page Tests">
+		<parameter name="HierarchyTitle" value="HIERARCHY NETWORK"></parameter>
+		<parameter name="Hierarchy_content" value="Communication follows a hierarchy: Administrator, Teachers, Parents and Students"></parameter>
+		<classes>
+			<class name ="automation.LandingPageTestsHierarchy"/>
+		</classes>
+		
+	</test>
+	
+	<test name="Landing page multiple role page tests">
+		<parameter name="MultipleRolesPage_title" value="MULTIPLE ROLES"></parameter>
+		<parameter name="MultipleRolePage_subTitle" value="Enjoy with a single login: as an administrator, teacher or parent with multiple kids"></parameter>
+		<classes>
+			<class name="automation.LandingPageMultipleModules"></class>
+		</classes>
+	</test>
+	
+	<test name="Landing page secured communication page tests">
+		<parameter name="securedPageTitle" value="SECURED COMMUNICATION"></parameter>
+		<parameter name="sucuredPageSubtitle" value="Connect, Communicate, Discuss &amp; stay updated within the institute based on hierarchy"></parameter>
+		<classes>
+			<class name="automation.LandingPageSecuredCommunication_page"></class>
+		</classes>
+	</test>
+	
+	<test name="Landing page notification and time table page">
+		<parameter name="notificationpageTitle" value="ALERTS &amp; TIME TABLE"></parameter>
+		<parameter name="notificationpageSubTitle" value="Instantly access daily alerts and time tables, meeting schedules and public holidays all in one place"></parameter>
+		<classes>
+			<class name="automation.LandingPageNotificationAndTimeTable"></class>
+		</classes>
+	</test>
+	
+	
+	<test name="Sign in without mobile">
+		<parameter name="username" value="modi.narendra"></parameter>
+		<parameter name="password" value="Antnele@123"></parameter>
+		<classes>
+			<class name="automation.SignInWithoutMobile"></class>
+		</classes>
+	</test>
+	
+	<test name="Sign in with mobile testing">
+		<parameter name="Enter_mobile_mumber" value="8179760155"></parameter>
+		<classes>
+			<class name="automation.SignInWithMobilePageTests"></class>
+		</classes>
+	</test>
+	
+	<test name="new user sign up test">
+		<parameter name="name" value="remo"></parameter>
+		<parameter name="surname" value="Test"></parameter>
+		<parameter name="password" value="Antnele@123"></parameter>
+		<parameter name="confirmPassword" value="antnele@12"></parameter>
+		<parameter name="selectDOB" value="05-05-1999"></parameter>
+		<classes>
+			<class name="automation.SignUp_without_mobile"></class>
+		</classes>
+	</test>
+	
+	<test name="message tick mark">
+		<parameter name="username" value="bheemla.nayak"></parameter>
+		<parameter name="password" value="Antnele@123"></parameter>
+		<classes>
+			<class name="automation.Message_tickMark"></class>
+		</classes>
+	</test>
+	
+	
+</suite>

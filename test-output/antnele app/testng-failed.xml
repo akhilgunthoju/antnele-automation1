@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [antnele app]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="new user sign up test(failed)">
+    <parameter name="password" value="Antnele@123"/>
+    <parameter name="surname" value="Test"/>
+    <parameter name="name" value="Antnele"/>
+    <parameter name="confirmPassword" value="antnele@12"/>
+    <classes>
+      <class name="automation.SignUp_without_mobile">
+        <methods>
+          <include name="testNavigatetoSignUpPage"/>
+          <include name="launch_app"/>
+        </methods>
+      </class> <!-- automation.SignUp_without_mobile -->
+    </classes>
+  </test> <!-- new user sign up test(failed) -->
+</suite> <!-- Failed suite [antnele app] -->

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="automation.SignUp_without_mobile">
+        <methods>
+          <include name="verifyNameFieldWithOnlySPaces"/>
+          <include name="verifyNameFieldWithLeadingNumber"/>
+          <include name="verifySurnameFieldMandatory"/>
+          <include name="verifySurnameFieldRejectingUnicodesCharacters"/>
+          <include name="verifysurnameFieldWithMixedCases"/>
+          <include name="gotoSignUpPage"/>
+          <include name="verifyCharactersAreRejected"/>
+          <include name="verifyNameFieldWith_MixedCases"/>
+          <include name="verifyLeadingAndTrailingSPacesAreTrimmed"/>
+          <include name="verifySurnameFieldwithSpacesBetweenCharacters"/>
+          <include name="closeApp"/>
+          <include name="verifySurnameFieldWithMultipleWords"/>
+          <include name="verifyUsernameFieldPresence"/>
+          <include name="VerifySurnameFieldCaseInsensitivityfor_Uniqueness"/>
+          <include name="launch_app"/>
+          <include name="verifyNameFieldWithMultipleWords"/>
+          <include name="verifyNameFieldWith_Unicodes"/>
+          <include name="verifySurnameFieldwithInitials"/>
+          <include name="verifyNumbersAreRejected"/>
+          <include name="verifyNumbersInSurnameField"/>
+          <include name="verifyMaximumCharacterLimit"/>
+          <include name="verifysurnameFieldAcceptedCharacters"/>
+          <include name="verifySurnameFieldWithOnlySpaces"/>
+          <include name="verifyNameFieldwithNoDate"/>
+          <include name="isPresentNameField"/>
+          <include name="verifyCharacterLimitInSurnameField"/>
+        </methods>
+      </class> <!-- automation.SignUp_without_mobile -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
