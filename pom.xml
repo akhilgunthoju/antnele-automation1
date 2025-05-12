@@ -67,6 +67,18 @@
 			<version>3.24.2</version> <!-- Keep this version as it's standard -->
 		</dependency>
 
+		<dependency>
+    			<groupId>com.android.tools</groupId>
+    			<artifactId>android</artifactId>
+    			<version>30.0.0</version>
+		</dependency>
+		<dependency>
+    			<groupId>androidx.core</groupId>
+    			<artifactId>core</artifactId>
+    			<version>1.9.0</version>
+		</dependency>
+
+
 	</dependencies>
 
 	<properties>
