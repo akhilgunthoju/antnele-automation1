@@ -71,7 +71,8 @@
 		<dependency>
     			<groupId>com.android.tools</groupId>
     			<artifactId>android</artifactId>
-    			<version>29.0.0</version>
+    			<version>30.0.0</version>
+			<scope>compile</scope>
 		</dependency>
 		<dependency>
     			<groupId>androidx.core</groupId>
