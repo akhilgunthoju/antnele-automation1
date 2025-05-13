@@ -87,6 +87,11 @@
         	<id>google</id>
         	<url>https://maven.google.com</url>
     		</repository>
+
+		<repository>
+        	<id>central</id>
+        	<url>https://repo.maven.apache.org/maven2</url>
+    		</repository>
 	</repositories>
 
 	<properties>
