@@ -70,12 +70,12 @@
 		<dependency>
     			<groupId>com.android.tools</groupId>
     			<artifactId>android</artifactId>
-    			<version>30.0.0</version>
+    			<version>29.0.0</version>
 		</dependency>
 		<dependency>
     			<groupId>androidx.core</groupId>
     			<artifactId>core</artifactId>
-    			<version>1.9.0</version>
+    			<version>1.8.0</version>
 		</dependency>
 
 
