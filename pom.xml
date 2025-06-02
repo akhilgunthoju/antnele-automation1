@@ -39,6 +39,13 @@
 			</exclusions>
 		</dependency>
 
+		<dependency>
+    			<groupId>com.android</groupId>
+    			<artifactId>android</artifactId>
+    			<version>4.1.1.4</version>
+		</dependency>
+
+
 		<!-- TestNG -->
 		<dependency>
 			<groupId>org.testng</groupId>
