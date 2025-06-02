@@ -45,12 +45,6 @@
     			<version>4.1.1.4</version>
 		</dependency> -->
 
-		<dependency>
-    			<groupId>org.jetbrains.kotlin</groupId>
-    			<artifactId>kotlin-stdlib</artifactId>
-    			<version>1.9.0</version>
-		</dependency>
-
 
 <!-- 		<dependency>
     			<groupId>com.android.tools</groupId>
@@ -61,10 +55,9 @@
 
 		<dependency>
     			<groupId>com.android.tools.build</groupId>
-    			<artifactId>gradle</artifactId>
-    			<version>7.0.2</version> <!-- Adjust version accordingly -->
+    			<artifactId>aapt2-proto</artifactId>
+    			<version>7.0.2-7396180</version>
 		</dependency>
-
 		
 		<dependency>
     			<groupId>org.jetbrains.kotlin</groupId>
