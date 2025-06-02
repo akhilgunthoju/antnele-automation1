@@ -56,17 +56,10 @@
 		<dependency>
     			<groupId>com.android.tools.build</groupId>
     			<artifactId>aapt2-proto</artifactId>
-    			<version>7.0.2-7396180</version>
+    			<version>4.1.0</version> <!-- Try an older, stable version -->
 		</dependency>
+
 		
-		<dependency>
-    			<groupId>org.jetbrains.kotlin</groupId>
-    			<artifactId>kotlin-stdlib</artifactId>
-    			<version>1.9.0</version> <!-- Try the latest stable version -->
-		</dependency>
-
-
-
 
 		<!-- TestNG -->
 		<dependency>
