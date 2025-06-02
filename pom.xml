@@ -13,15 +13,15 @@
 		<dependency>
 			<groupId>io.appium</groupId>
 			<artifactId>java-client</artifactId>
-			<version>8.5.1</version> <!-- Ensure this is compatible -->
+			<version>8.3.0</version> <!-- Ensure this is compatible -->
 		</dependency>
 
 		<!-- Selenium Java -->
 		<!--dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-java</artifactId>
-        <version>4.20.0</version> 
-    </dependency -->
+        		<groupId>org.seleniumhq.selenium</groupId>
+        		<artifactId>selenium-java</artifactId>
+        		<version>4.20.0</version> 
+    		</dependency -->
 
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -93,13 +93,11 @@
 	<repositories>
     		<repository>
         		<id>google</id>
-			<name>Google</name>
         		<url>https://maven.google.com</url>
     		</repository>
 
 		<repository>
         		<id>central</id>
-			<name>Maven Central</name>
         		<url>https://repo.maven.apache.org/maven2</url>
     		</repository>
 		<repository>
