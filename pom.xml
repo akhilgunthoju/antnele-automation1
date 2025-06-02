@@ -74,11 +74,11 @@
     			<version>30.0.0</version>
 			<scope>compile</scope>
 		</dependency> -->
-<!-- 		<dependency>
+		<dependency>
     			<groupId>androidx.core</groupId>
     			<artifactId>core</artifactId>
     			<version>1.9.0</version>
-		</dependency> -->
+		</dependency>
 
 
 	</dependencies>
