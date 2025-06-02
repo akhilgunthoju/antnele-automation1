@@ -100,11 +100,11 @@
         		<id>central</id>
         		<url>https://repo.maven.apache.org/maven2</url>
     		</repository>
-		<repository>
+<!-- 		<repository>
     			<id>jcenter</id>
     			<name>JCenter</name>
     			<url>https://jcenter.bintray.com/</url>
-		</repository>
+		</repository> -->
 
 	</repositories>
 
