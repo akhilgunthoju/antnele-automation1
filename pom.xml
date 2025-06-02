@@ -74,11 +74,11 @@
     			<version>30.0.0</version>
 			<scope>compile</scope>
 		</dependency> -->
-<!-- 		<dependency>
+		<dependency>
     			<groupId>androidx.core</groupId>
     			<artifactId>core</artifactId>
     			<version>1.9.0</version>
-		</dependency> -->
+		</dependency>
 
 
 	</dependencies>
@@ -86,13 +86,21 @@
 	<repositories>
     		<repository>
         		<id>google</id>
+			<name>Google</name>
         		<url>https://maven.google.com</url>
     		</repository>
 
 		<repository>
         		<id>central</id>
+			<name>Maven Central</name>
         		<url>https://repo.maven.apache.org/maven2</url>
     		</repository>
+		<repository>
+    			<id>jcenter</id>
+    			<name>JCenter</name>
+    			<url>https://jcenter.bintray.com/</url>
+		</repository>
+
 	</repositories>
 
 	<properties>
