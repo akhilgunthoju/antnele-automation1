@@ -13,7 +13,7 @@
 		<dependency>
 			<groupId>io.appium</groupId>
 			<artifactId>java-client</artifactId>
-			<version>7.5.1</version> <!-- Ensure this is compatible -->
+			<version>8.5.1</version> <!-- Ensure this is compatible -->
 		</dependency>
 
 		<!-- Selenium Java -->
@@ -85,18 +85,13 @@
 
 	<repositories>
     		<repository>
-        	<id>google</id>
-		<name>Google</name>
-        	<url>https://maven.google.com</url>
-		<releases>
-            		<enabled>true</enabled>
-        	</releases>
+        		<id>google</id>
+        		<url>https://maven.google.com</url>
     		</repository>
 
 		<repository>
-        	<id>central</id>
-		<name>Maven Central Repository</name>
-        	<url>https://repo.maven.apache.org/maven2</url>
+        		<id>central</id>
+        		<url>https://repo.maven.apache.org/maven2</url>
     		</repository>
 	</repositories>
 
